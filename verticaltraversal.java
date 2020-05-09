@@ -62,7 +62,8 @@ import java.util.*;
      Scanner sc=new Scanner(System.in);
      int t=Integer.parseInt(sc.nextLine());
        while(t-->0)
-         {
+         {   mp.clear();
+          
            String s=sc.nextLine();
            String s1[]=s.split(" ");
             node root=null;
